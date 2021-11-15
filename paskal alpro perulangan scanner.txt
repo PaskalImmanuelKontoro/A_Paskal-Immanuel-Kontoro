@@ -1,0 +1,20 @@
+package alpro2021;
+
+import java.util.Scanner;
+
+public class perulanganpaskal {
+
+	  public static void main(String[] args) {
+	  Scanner inp = new Scanner(System.in);
+	  byte n, i, lipat = 5;
+	  System.out.print(" Inputan Banyak Data: ");
+	  n = inp.nextByte();
+	  for (i=1;i <= n; i++){
+	    System.out.print(" "+lipat);
+	    lipat+=5;
+	  }
+	  System.out.println();
+
+	  }
+
+	}
